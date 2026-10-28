@@ -2,5 +2,4 @@ node_modules
 .git
 .DS_Store
 extension/config.js
-extension.zip
 README.md

@@ -9,7 +9,6 @@
     "stop": "kill $(cat server.pid) && rm -f server.pid"
   },
   "dependencies": {
-    "archiver": "^7.0.1",
     "cors": "^2.8.5",
     "express": "^4.19.2"
   }

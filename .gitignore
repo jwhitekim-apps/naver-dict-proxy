@@ -3,5 +3,4 @@ node_modules/
 .claude/
 server.log
 server.pid
-extension.zip
 extension/config.js

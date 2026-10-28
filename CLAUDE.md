@@ -1,10 +1,10 @@
 # 프로젝트 규칙
 
-투두앱 백엔드. FastAPI + PostgreSQL + Alembic.
-설계 의도의 전문은 `docs/index.md`부터 시작해서 참조. 아래는 작업 시 반드시 지킬 규칙.
+Naver 영한사전 비공식 API를 중계하는 Express 서버와 Chrome 확장프로그램.
+구조와 사용법은 `README.md` 참조. 아래는 작업 시 반드시 지킬 규칙.
 
-- 데이터 모델 왜: `docs/architecture/data-model.md`
-- API 계약 왜: `docs/architecture/api-contract.md`
+- 서버와 API 라우트: `server/server.js`
+- Chrome 확장프로그램: `extension/`
 - 완료 판정 기준: `/verify-completion` 스킬
 - 승인 게이트 기준: `/approval-check` 스킬
 - 지금 안 만드는 것: `docs/scope.md`
